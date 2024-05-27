@@ -2,4 +2,7 @@
 //el número si es impar mostrar  false seguido del número, 
 //utilizar el operador ternario.
 
-let numero1 = 2;
+let aleatorio = Math.ceil(Math.random() * 20);
+const respuesta = (aleatorio % 2 === 0) ? true : false
+
+console.log(`${respuesta} - ${aleatorio}`)
